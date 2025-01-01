@@ -1,0 +1,54 @@
+* Why now?
+I've chosen a theme, I've made some placeholder assets, my tooling is mostly complete
+* Impetus
+** Early Prototypes
+** Hearkening back to childhood
+I want to build a game that I would play as a kid. 
+** 
+* Script
+** I'm building an N64 Action Platformer in the Godot Game Engine.
+I know "Collectathon" has a somewhat negative connotation these days, but I adored games like DK64 and Banjo Tooie. If they had been released to modern audiences and branded "Metroidvanias", I think they would still see massive success today.
+
+** That being said, I do not have the resources nor patience to build something of that scope.
+So instead, I am focusing on a few well polished, smaller levels in the style of Banjo Kazooie. My demo is going live in a few weeks, and I wanted to make an announcement video of sorts, and to talk about the tools I used and to leave links down below (Underneath the Subscribe button *wink* *wink*)
+
+** Tools
+
+*** Editor
+VSCode or Visual Studio are definitely the most popular options if you're doing CSharp work, and I would recommend these if you're looking to get off the ground quickly with minimal friction.
+
+HOWEVER
+
+If you're interested in using a tool that can be customized in every way conceivable and is also fully open sourced, I use Emacs.
+
+I use a stock emacs installation with my own config file, but there are flavors of emacs that offer a better out-of-the-box experience such as DooM Emacs.
+I'll leave a link to the System Crafters channel, where they have a lot of amazing info on customizing emacs.
+
+Emacs, and Org-Mode specifically, is a tool that, once learned, you can carry with you anywhere and with a single config file have a familiar IDE on every PC.
+
+*** 3D Pipeline
+**** Trenchbroom
+Level geometry for quickly blocking in shapes and some high level details. You can export as an OBJ file to add more objects using Blender.
+
+I had to modify the source code to add support for Vertex Colors. It's a bit touchy, but it works.
+**** Textures
+***** Free Resources
+****** AmbientCG
+I have scraped AmbientCG and made 32x32 and 64x64 versions of all the tiles.
+They come in a few varieties. Full detail 64x64, full detail 32x32, center of a 256x256 tile as 32x32 or 64x64.
+**** Blender
+Low poly modeling with vertex painting and texturing options
+
+*** Audio
+**** Reaper
+Very powerful DAW. Still learning
+**** LMMS
+Free alternative that I had some success with
+*** 2D Touchups
+**** Krita
+Free very powerful drawing program
+***** Texture Repeating
+*** Godot
+Constantly adding new features. Right now I am on 4.4
+**** Qodot
+Qodot is not supported anymore, but it meets my needs, so I'm not migrating
